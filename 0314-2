@@ -1,0 +1,14 @@
+int main() {
+    int a, b, product;
+    a = 30;
+    b = 37;
+
+ 
+    // Calculating product
+    product = a * b;
+
+ 
+    printf("Product = %d", product);
+    
+    return 0;
+}
