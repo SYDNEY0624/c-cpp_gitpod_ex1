@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("please input x \n");
+    scanf("%d",&a);
+    if (a<0)
+        printf("y=2");
+    else if (a>0)
+        printf("y=4");
+    else
+        printf("y=6");
+    return 0;
+}
